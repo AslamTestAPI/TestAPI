@@ -60,7 +60,7 @@ namespace APISample.Controllers
             //if (id != friend.FriendId)
             //{
             //    return Request.CreateResponse(HttpStatusCode.BadRequest);
-            //}
+            //} .lklsdklf
 
             db.Entry(friend).State = EntityState.Modified;
 
