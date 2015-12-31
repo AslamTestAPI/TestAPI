@@ -22,6 +22,7 @@ namespace APISample.Controllers
             return db.Friends.AsEnumerable();
         }
 
+        [HttpGet]
         public Friend Get(int id)
         {
             Friend friend = db.Friends.Find(id);
