@@ -19,6 +19,7 @@ namespace APISample.Controllers
         [HttpGet]
         public IEnumerable<Friend> Get()
         {
+            // some testing comment.
             return db.Friends.AsEnumerable();
         }
 
